@@ -145,7 +145,7 @@ app.get("/db", (req, resp) => {
 });
 
 
-https.createServer(options, app).listen(port, function(){
+app.listen(port, function(){
   console.log("Express server listening on port " + port);
 });
 
